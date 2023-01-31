@@ -423,7 +423,7 @@ x = MVTSeries(2020Q1, (:a, :b), rand(6, 2))
 # `MIT`), the `MVTSeries` will be able to allocate its own
 # storage. In this case, we can optionally provide an initializer in the form of a
 # constant value or a function.
-MVTSeries(2020Q1:2021Q3, (:one, :too, :tree), zeros)
+MVTSeries(2020Q1:2021Q3, (:one, :two, :tree), zeros)
 
 # We can also build an `MVTSeries` from a range and a list of name-value
 # pairs. The values can be `TSeries`, vectors, or constants. In the case
